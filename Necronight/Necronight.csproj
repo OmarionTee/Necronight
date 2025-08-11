@@ -84,15 +84,6 @@
     <None Include="Resources\R1survivor_unarmed.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\rifle.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\shotgun.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\smg.png" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\B1survivor_unarmed.png" />
   </ItemGroup>
   <ItemGroup>
@@ -117,7 +108,97 @@
     <None Include="Resources\L1survivor_unarmed.png" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\B2zombie.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\F2zombie.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\L2zombie.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\R2zombie.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\armour.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\medkit.png" />
+  </ItemGroup>
+  <ItemGroup>
     <None Include="Resources\pistol.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pistol_ammo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rifle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rifle_ammo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shotgun.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shotgun_ammo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\smg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\smg_ammo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Car2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Police1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Police2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Taxi1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Taxi2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Truck1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bus1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bush.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Car1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Heart_Empty.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Heart_Full.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Heart_Half.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Primary.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Secondary.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\background.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cursor.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Armour_Heart.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
