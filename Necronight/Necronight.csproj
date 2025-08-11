@@ -81,10 +81,10 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\rifle.png" />
+    <None Include="Resources\R1survivor_unarmed.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\pistol.png" />
+    <None Include="Resources\rifle.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\shotgun.png" />
@@ -93,13 +93,10 @@
     <None Include="Resources\smg.png" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\B1survivor_unarmed.png" />
+  </ItemGroup>
+  <ItemGroup>
     <None Include="Resources\F1survivor_pistol.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\F1survivor_unarmed.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\F1zombie.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\F1survivor_rifle.png" />
@@ -109,6 +106,18 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\F1survivor_smg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\F1survivor_unarmed.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\F1zombie.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\L1survivor_unarmed.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pistol.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

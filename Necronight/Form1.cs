@@ -14,9 +14,9 @@ namespace Necronight
     {
 
         static Image F1 = Necronight.Properties.Resources.F1survivor_unarmed;
-        static Image B1 = Necronight.Properties.Resources.F1survivor_unarmed;
-        static Image L1 = Necronight.Properties.Resources.F1survivor_unarmed;
-        static Image R1 = Necronight.Properties.Resources.F1survivor_unarmed;
+        static Image B1 = Necronight.Properties.Resources.B1survivor_unarmed;
+        static Image L1 = Necronight.Properties.Resources.L1survivor_unarmed;
+        static Image R1 = Necronight.Properties.Resources.R1survivor_unarmed;
 
         Image bob = F1;
         static int y = 20;
@@ -54,7 +54,7 @@ namespace Necronight
 
             if (e.KeyCode == Keys.W)
             {
-                bob = B1;
+                bob = F1;
                 y = y - 10;
             } // up
 
@@ -63,7 +63,7 @@ namespace Necronight
 
             if (e.KeyCode == Keys.S)
             {
-                bob = F1;
+                bob = B1;
                 y = y + 10;
             } // down
 
