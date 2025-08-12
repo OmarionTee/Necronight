@@ -192,13 +192,64 @@
     <None Include="Resources\Secondary.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\background.png" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\Cursor.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Armour_Heart.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\B3survivor_pistol.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\F3survivor_pistol.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\L3survivor_pistol.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\R3survivor_pistol.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\B4survivor_shotgun.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\F4survivor_shotgun.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\L4survivor_shotgun.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\R4survivor_shotgun.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\B5survivor_smg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\F5survivor_smg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\L5survivor_smg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\R5survivor_smg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\B5survivor_rifle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\F5survivor_rifle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\L5survivor_rifle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\R5survivor_rifle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\background.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\background.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

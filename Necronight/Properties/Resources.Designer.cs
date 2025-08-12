@@ -103,6 +103,46 @@ namespace Necronight.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap B3survivor_pistol {
+            get {
+                object obj = ResourceManager.GetObject("B3survivor_pistol", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap B4survivor_shotgun {
+            get {
+                object obj = ResourceManager.GetObject("B4survivor_shotgun", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap B5survivor_rifle {
+            get {
+                object obj = ResourceManager.GetObject("B5survivor_rifle", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap B5survivor_smg {
+            get {
+                object obj = ResourceManager.GetObject("B5survivor_smg", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap background {
             get {
                 object obj = ResourceManager.GetObject("background", resourceCulture);
@@ -183,6 +223,46 @@ namespace Necronight.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap F3survivor_pistol {
+            get {
+                object obj = ResourceManager.GetObject("F3survivor_pistol", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap F4survivor_shotgun {
+            get {
+                object obj = ResourceManager.GetObject("F4survivor_shotgun", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap F5survivor_rifle {
+            get {
+                object obj = ResourceManager.GetObject("F5survivor_rifle", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap F5survivor_smg {
+            get {
+                object obj = ResourceManager.GetObject("F5survivor_smg", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Heart_Empty {
             get {
                 object obj = ResourceManager.GetObject("Heart_Empty", resourceCulture);
@@ -226,6 +306,46 @@ namespace Necronight.Properties {
         internal static System.Drawing.Bitmap L2zombie {
             get {
                 object obj = ResourceManager.GetObject("L2zombie", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap L3survivor_pistol {
+            get {
+                object obj = ResourceManager.GetObject("L3survivor_pistol", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap L4survivor_shotgun {
+            get {
+                object obj = ResourceManager.GetObject("L4survivor_shotgun", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap L5survivor_rifle {
+            get {
+                object obj = ResourceManager.GetObject("L5survivor_rifle", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap L5survivor_smg {
+            get {
+                object obj = ResourceManager.GetObject("L5survivor_smg", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -306,6 +426,46 @@ namespace Necronight.Properties {
         internal static System.Drawing.Bitmap R2zombie {
             get {
                 object obj = ResourceManager.GetObject("R2zombie", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap R3survivor_pistol {
+            get {
+                object obj = ResourceManager.GetObject("R3survivor_pistol", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap R4survivor_shotgun {
+            get {
+                object obj = ResourceManager.GetObject("R4survivor_shotgun", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap R5survivor_rifle {
+            get {
+                object obj = ResourceManager.GetObject("R5survivor_rifle", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap R5survivor_smg {
+            get {
+                object obj = ResourceManager.GetObject("R5survivor_smg", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -17,6 +17,26 @@ namespace Necronight
         static Image B1 = Necronight.Properties.Resources.B1survivor_unarmed;
         static Image L1 = Necronight.Properties.Resources.L1survivor_unarmed;
         static Image R1 = Necronight.Properties.Resources.R1survivor_unarmed;
+        static Image F2 = Necronight.Properties.Resources.F2zombie;
+        static Image B2 = Necronight.Properties.Resources.B2zombie;
+        static Image L2 = Necronight.Properties.Resources.L2zombie;
+        static Image R2 = Necronight.Properties.Resources.R2zombie;
+        static Image F3 = Necronight.Properties.Resources.F3survivor_pistol;
+        static Image B3 = Necronight.Properties.Resources.B3survivor_pistol;
+        static Image L3 = Necronight.Properties.Resources.L3survivor_pistol;
+        static Image R3 = Necronight.Properties.Resources.R3survivor_pistol;
+        static Image F4 = Necronight.Properties.Resources.F4survivor_shotgun;
+        static Image B4 = Necronight.Properties.Resources.B4survivor_shotgun;
+        static Image L4 = Necronight.Properties.Resources.L4survivor_shotgun;
+        static Image R4 = Necronight.Properties.Resources.R4survivor_shotgun;
+        static Image F5 = Necronight.Properties.Resources.F5survivor_rifle;
+        static Image B5 = Necronight.Properties.Resources.B5survivor_rifle;
+        static Image L5 = Necronight.Properties.Resources.L5survivor_rifle;
+        static Image R5 = Necronight.Properties.Resources.R5survivor_rifle;
+        static Image F6 = Necronight.Properties.Resources.F5survivor_smg;
+        static Image B6 = Necronight.Properties.Resources.B5survivor_smg;
+        static Image L6 = Necronight.Properties.Resources.L5survivor_smg;
+        static Image R6 = Necronight.Properties.Resources.R5survivor_smg;
 
         Image bob = F1;
         static int y = 20;
