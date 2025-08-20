@@ -118,157 +118,157 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="armour" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\armour.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Armour_Heart" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Armour_Heart.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="B1survivor_unarmed" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\B1survivor_unarmed.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="B2zombie" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\B2zombie.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="B3survivor_pistol" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\B3survivor_pistol.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="B4survivor_shotgun" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\B4survivor_shotgun.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="B5survivor_rifle" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\B5survivor_rifle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="B5survivor_smg" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\B5survivor_smg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="background" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\background.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Bus1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Bus1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="bush" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\bush.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Car1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Car1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Car2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Car2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Cursor" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Cursor.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="F1survivor_unarmed" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\F1survivor_unarmed.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="F2zombie" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\F2zombie.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="F3survivor_pistol" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\F3survivor_pistol.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="F4survivor_shotgun" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\F4survivor_shotgun.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="F5survivor_rifle" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\F5survivor_rifle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="F5survivor_smg" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\F5survivor_smg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Heart_Empty" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Heart_Empty.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="Heart_Full" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Heart_Full.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Heart_Half" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Heart_Half.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="L1survivor_unarmed" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\L1survivor_unarmed.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="L2zombie" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\L2zombie.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="L3survivor_pistol" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\L3survivor_pistol.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="L4survivor_shotgun" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\L4survivor_shotgun.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="L5survivor_rifle" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\L5survivor_rifle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="L5survivor_smg" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\L5survivor_smg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="medkit" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\medkit.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="pistol" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\pistol.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="pistol_ammo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\pistol_ammo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Police1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Police1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Police2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Police2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Primary" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Primary.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="R1survivor_unarmed" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\R1survivor_unarmed.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="R2zombie" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\R2zombie.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="R3survivor_pistol" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\R3survivor_pistol.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="R4survivor_shotgun" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\R4survivor_shotgun.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="R5survivor_rifle" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\R5survivor_rifle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="R5survivor_smg" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\R5survivor_smg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="rifle" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\rifle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="rifle_ammo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\rifle_ammo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Secondary" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Secondary.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="shotgun" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\shotgun.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="shotgun_ammo" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\shotgun_ammo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="smg" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\smg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Taxi2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Taxi2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="smg_ammo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\smg_ammo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Heart_Empty" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Heart_Empty.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Bus1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Bus1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="B2zombie" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\B2zombie.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="R1survivor_unarmed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\R1survivor_unarmed.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="L4survivor_shotgun" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\L4survivor_shotgun.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="B3survivor_pistol" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\B3survivor_pistol.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shotgun" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shotgun.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bush" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bush.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="R4survivor_shotgun" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\R4survivor_shotgun.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="L5survivor_smg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\L5survivor_smg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="B1survivor_unarmed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\B1survivor_unarmed.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pistol" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pistol.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Armour_Heart" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Armour_Heart.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="L2zombie" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\L2zombie.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="R3survivor_pistol" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\R3survivor_pistol.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="F1survivor_unarmed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\F1survivor_unarmed.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Taxi1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Taxi1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Taxi2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Taxi2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="L5survivor_rifle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\L5survivor_rifle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rifle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rifle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Police1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Police1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="armour" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\armour.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="medkit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\medkit.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="B5survivor_rifle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\B5survivor_rifle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Police2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Police2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\smg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="F4survivor_shotgun" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\F4survivor_shotgun.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="R2zombie" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\R2zombie.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Heart_Half" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Heart_Half.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rifle_ammo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rifle_ammo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="L1survivor_unarmed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\L1survivor_unarmed.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Secondary" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Secondary.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="L3survivor_pistol" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\L3survivor_pistol.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Primary" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Primary.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Car2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Car2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="B5survivor_smg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\B5survivor_smg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Truck1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Truck1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Car1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Car1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="F2zombie" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\F2zombie.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="F5survivor_rifle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\F5survivor_rifle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="R5survivor_rifle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\R5survivor_rifle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smg_ammo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\smg_ammo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="R5survivor_smg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\R5survivor_smg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="background" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\background.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="F5survivor_smg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\F5survivor_smg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pistol_ammo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pistol_ammo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="F3survivor_pistol" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\F3survivor_pistol.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="B4survivor_shotgun" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\B4survivor_shotgun.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="uiB" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\uiB1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
