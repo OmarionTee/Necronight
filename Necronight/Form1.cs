@@ -54,7 +54,7 @@ namespace Necronight
 
         private void Form1_KeyDown(object sender, KeyEventArgs e)
         {
-            if (e.KeyCode == Keys.A)
+            if (e.KeyCode == Keys.A || e.KeyCode == Keys.Left)
             {
                 bob = L1;
                 x = x - 10;
@@ -63,7 +63,7 @@ namespace Necronight
             pictureBox1.Refresh();
             pictureBox1.Update();
 
-            if (e.KeyCode == Keys.D)
+            if (e.KeyCode == Keys.D || e.KeyCode == Keys.Right)
             {
                 bob = R1;
                 x = x + 10;
@@ -72,7 +72,7 @@ namespace Necronight
             pictureBox1.Refresh();
             pictureBox1.Update();
 
-            if (e.KeyCode == Keys.W)
+            if (e.KeyCode == Keys.W || e.KeyCode == Keys.Up)
             {
                 bob = F1;
                 y = y - 10;
@@ -81,7 +81,7 @@ namespace Necronight
             pictureBox1.Refresh();
             pictureBox1.Update();
 
-            if (e.KeyCode == Keys.S)
+            if (e.KeyCode == Keys.S || e.KeyCode == Keys.Down)
             {
                 bob = B1;
                 y = y + 10;
@@ -92,6 +92,11 @@ namespace Necronight
         private void pictureBox1_Paint(object sender, PaintEventArgs e)
         {
             e.Graphics.DrawImage(bob, x, y, 30, 40);
+
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
 
         }
     }
