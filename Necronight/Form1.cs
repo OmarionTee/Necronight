@@ -68,19 +68,25 @@ namespace Necronight
 
             // First heart
             if (health >= 50) // Checks if the player's health is greater than or equal to 50
-                heart1.Image = Heart_Full;  // If the player's health is greater than or equal to 50, it sets the image of the first heart (heart1) to the full heart image (Heart_Full)
+                heart1.Image = Heart_Full;  // If the player's health is greater than or equal to 50,
+                                            // it sets the image of the first heart (heart1) to the full heart image (Heart_Full)
             else if (health > 0) // Checks if the player's health is greater than 0
-                heart1.Image = Heart_Half; // If the player's health is greater than 0 but less than 50, it sets the image of the first heart (heart1) to the half heart image (Heart_Half)
+                heart1.Image = Heart_Half; // If the player's health is greater than 0 but less than 50,
+                                           // it sets the image of the first heart (heart1) to the half heart image (Heart_Half)
             else
-                heart1.Image = Heart_Empty; // If the player's health is 0 or less, it sets the image of the first heart (heart1) to the empty heart image (Heart_Empty)
+                heart1.Image = Heart_Empty; // If the player's health is 0 or less,
+                                            // it sets the image of the first heart (heart1) to the empty heart image (Heart_Empty)
 
             // Second heart
             if (health >= 100) // Checks if the player's health is greater than or equal to 100
-                heart2.Image = Heart_Full; // If the player's health is greater than or equal to 100, it sets the image of the second heart (heart2) to the full heart image (Heart_Full)
+                heart2.Image = Heart_Full; // If the player's health is greater than or equal to 100,
+                                           // it sets the image of the second heart (heart2) to the full heart image (Heart_Full)
             else if (health > 50) // Checks if the player's health is greater than 50
-                heart2.Image = Heart_Half; // If the player's health is greater than 50 but less than 100, it sets the image of the second heart (heart2) to the half heart image (Heart_Half)
+                heart2.Image = Heart_Half; // If the player's health is greater than 50 but less than 100,
+                                           // it sets the image of the second heart (heart2) to the half heart image (Heart_Half)
             else
-                heart2.Image = Heart_Empty; // If the player's health is 50 or less, it sets the image of the second heart (heart2) to the empty heart image (Heart_Empty)
+                heart2.Image = Heart_Empty; // If the player's health is 50 or less,
+                                            // it sets the image of the second heart (heart2) to the empty heart image (Heart_Empty)
 
             if (playerHealth.IsDead())
             {
@@ -152,11 +158,6 @@ namespace Necronight
         private void pictureBox1_Paint(object sender, PaintEventArgs e)
         {
             e.Graphics.DrawImage(bob, x, y, 30, 40); // Draws the current image (bob) at the specified coordinates (x, y) with a width of 30 and a height of 40
-
-        }
-
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
 
         }
     }

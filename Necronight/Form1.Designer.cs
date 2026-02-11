@@ -35,6 +35,8 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.openspot1 = new System.Windows.Forms.PictureBox();
             this.heart2 = new System.Windows.Forms.PictureBox();
+            this.Score = new System.Windows.Forms.Label();
+            this.Wave = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.heart1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Healables)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Weapon)).BeginInit();
@@ -78,7 +80,7 @@
             // pictureBox1
             // 
             this.pictureBox1.BackgroundImage = global::Necronight.Properties.Resources.background;
-            this.pictureBox1.Location = new System.Drawing.Point(216, 42);
+            this.pictureBox1.Location = new System.Drawing.Point(216, 67);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(810, 582);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
@@ -88,7 +90,7 @@
             // 
             // openspot1
             // 
-            this.openspot1.Location = new System.Drawing.Point(202, 28);
+            this.openspot1.Location = new System.Drawing.Point(202, 53);
             this.openspot1.Name = "openspot1";
             this.openspot1.Size = new System.Drawing.Size(838, 608);
             this.openspot1.TabIndex = 6;
@@ -106,13 +108,40 @@
             this.heart2.TabIndex = 7;
             this.heart2.TabStop = false;
             // 
+            // Score
+            // 
+            this.Score.AutoSize = true;
+            this.Score.BackColor = System.Drawing.Color.Transparent;
+            this.Score.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.Score.ForeColor = System.Drawing.Color.White;
+            this.Score.Location = new System.Drawing.Point(12, 379);
+            this.Score.Name = "Score";
+            this.Score.Size = new System.Drawing.Size(102, 32);
+            this.Score.TabIndex = 8;
+            this.Score.Text = "Score:";
+            // 
+            // Wave
+            // 
+            this.Wave.AutoSize = true;
+            this.Wave.BackColor = System.Drawing.Color.Transparent;
+            this.Wave.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.Wave.ForeColor = System.Drawing.Color.White;
+            this.Wave.Location = new System.Drawing.Point(198, 14);
+            this.Wave.Name = "Wave";
+            this.Wave.Size = new System.Drawing.Size(99, 32);
+            this.Wave.TabIndex = 9;
+            this.Wave.Text = "Wave:";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoSize = true;
             this.BackColor = System.Drawing.SystemColors.ButtonShadow;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.ClientSize = new System.Drawing.Size(1082, 665);
+            this.ClientSize = new System.Drawing.Size(1082, 699);
+            this.Controls.Add(this.Wave);
+            this.Controls.Add(this.Score);
             this.Controls.Add(this.heart2);
             this.Controls.Add(this.heart1);
             this.Controls.Add(this.Healables);
@@ -132,6 +161,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.openspot1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.heart2)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -143,6 +173,8 @@
         private System.Windows.Forms.PictureBox heart1;
         private System.Windows.Forms.PictureBox openspot1;
         private System.Windows.Forms.PictureBox heart2;
+        private System.Windows.Forms.Label Score;
+        private System.Windows.Forms.Label Wave;
     }
 }
 
