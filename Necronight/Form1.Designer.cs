@@ -48,10 +48,9 @@
             // 
             this.armour.BackColor = System.Drawing.Color.Transparent;
             this.armour.Image = global::Necronight.Properties.Resources.Armour_Heart;
-            this.armour.Location = new System.Drawing.Point(74, 164);
-            this.armour.Margin = new System.Windows.Forms.Padding(2);
+            this.armour.Location = new System.Drawing.Point(111, 252);
             this.armour.Name = "armour";
-            this.armour.Size = new System.Drawing.Size(40, 39);
+            this.armour.Size = new System.Drawing.Size(60, 60);
             this.armour.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.armour.TabIndex = 5;
             this.armour.TabStop = false;
@@ -61,10 +60,9 @@
             this.heart.BackColor = System.Drawing.Color.Transparent;
             this.heart.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.heart.Image = global::Necronight.Properties.Resources.Heart_Full;
-            this.heart.Location = new System.Drawing.Point(15, 164);
-            this.heart.Margin = new System.Windows.Forms.Padding(2);
+            this.heart.Location = new System.Drawing.Point(22, 252);
             this.heart.Name = "heart";
-            this.heart.Size = new System.Drawing.Size(40, 39);
+            this.heart.Size = new System.Drawing.Size(60, 60);
             this.heart.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.heart.TabIndex = 4;
             this.heart.TabStop = false;
@@ -72,10 +70,9 @@
             // secondary
             // 
             this.secondary.Image = global::Necronight.Properties.Resources.Secondary;
-            this.secondary.Location = new System.Drawing.Point(41, 80);
-            this.secondary.Margin = new System.Windows.Forms.Padding(2);
+            this.secondary.Location = new System.Drawing.Point(62, 123);
             this.secondary.Name = "secondary";
-            this.secondary.Size = new System.Drawing.Size(47, 46);
+            this.secondary.Size = new System.Drawing.Size(70, 71);
             this.secondary.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.secondary.TabIndex = 3;
             this.secondary.TabStop = false;
@@ -83,10 +80,9 @@
             // primary
             // 
             this.primary.Image = global::Necronight.Properties.Resources.Primary;
-            this.primary.Location = new System.Drawing.Point(35, 18);
-            this.primary.Margin = new System.Windows.Forms.Padding(2);
+            this.primary.Location = new System.Drawing.Point(52, 28);
             this.primary.Name = "primary";
-            this.primary.Size = new System.Drawing.Size(60, 58);
+            this.primary.Size = new System.Drawing.Size(90, 89);
             this.primary.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.primary.TabIndex = 2;
             this.primary.TabStop = false;
@@ -94,10 +90,9 @@
             // pictureBox1
             // 
             this.pictureBox1.BackgroundImage = global::Necronight.Properties.Resources.background;
-            this.pictureBox1.Location = new System.Drawing.Point(135, 18);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
+            this.pictureBox1.Location = new System.Drawing.Point(202, 28);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(540, 378);
+            this.pictureBox1.Size = new System.Drawing.Size(810, 582);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
@@ -106,20 +101,19 @@
             // 
             // openspot1
             // 
-            this.openspot1.Location = new System.Drawing.Point(125, 9);
-            this.openspot1.Margin = new System.Windows.Forms.Padding(2);
+            this.openspot1.Location = new System.Drawing.Point(188, 14);
             this.openspot1.Name = "openspot1";
-            this.openspot1.Size = new System.Drawing.Size(559, 395);
+            this.openspot1.Size = new System.Drawing.Size(838, 608);
             this.openspot1.TabIndex = 6;
             this.openspot1.TabStop = false;
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonShadow;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.ClientSize = new System.Drawing.Size(697, 413);
+            this.ClientSize = new System.Drawing.Size(1046, 635);
             this.Controls.Add(this.armour);
             this.Controls.Add(this.heart);
             this.Controls.Add(this.secondary);
@@ -128,7 +122,6 @@
             this.Controls.Add(this.openspot1);
             this.Cursor = System.Windows.Forms.Cursors.No;
             this.DoubleBuffered = true;
-            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
