@@ -29,83 +29,82 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            this.printDocument1 = new System.Drawing.Printing.PrintDocument();
-            this.armour = new System.Windows.Forms.PictureBox();
-            this.heart = new System.Windows.Forms.PictureBox();
-            this.secondary = new System.Windows.Forms.PictureBox();
-            this.primary = new System.Windows.Forms.PictureBox();
+            this.heart1 = new System.Windows.Forms.PictureBox();
+            this.Healables = new System.Windows.Forms.PictureBox();
+            this.Weapon = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.openspot1 = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.armour)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.heart)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.secondary)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.primary)).BeginInit();
+            this.heart2 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.heart1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Healables)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Weapon)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.openspot1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.heart2)).BeginInit();
             this.SuspendLayout();
             // 
-            // armour
+            // heart1
             // 
-            this.armour.BackColor = System.Drawing.Color.Transparent;
-            this.armour.Image = global::Necronight.Properties.Resources.Armour_Heart;
-            this.armour.Location = new System.Drawing.Point(111, 252);
-            this.armour.Name = "armour";
-            this.armour.Size = new System.Drawing.Size(60, 60);
-            this.armour.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.armour.TabIndex = 5;
-            this.armour.TabStop = false;
+            this.heart1.BackColor = System.Drawing.Color.Transparent;
+            this.heart1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.heart1.Image = global::Necronight.Properties.Resources.Heart_Full;
+            this.heart1.Location = new System.Drawing.Point(33, 253);
+            this.heart1.Name = "heart1";
+            this.heart1.Size = new System.Drawing.Size(60, 60);
+            this.heart1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.heart1.TabIndex = 4;
+            this.heart1.TabStop = false;
             // 
-            // heart
+            // Healables
             // 
-            this.heart.BackColor = System.Drawing.Color.Transparent;
-            this.heart.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.heart.Image = global::Necronight.Properties.Resources.Heart_Full;
-            this.heart.Location = new System.Drawing.Point(22, 252);
-            this.heart.Name = "heart";
-            this.heart.Size = new System.Drawing.Size(60, 60);
-            this.heart.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.heart.TabIndex = 4;
-            this.heart.TabStop = false;
+            this.Healables.Image = global::Necronight.Properties.Resources.Secondary;
+            this.Healables.Location = new System.Drawing.Point(63, 137);
+            this.Healables.Name = "Healables";
+            this.Healables.Size = new System.Drawing.Size(70, 71);
+            this.Healables.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.Healables.TabIndex = 3;
+            this.Healables.TabStop = false;
             // 
-            // secondary
+            // Weapon
             // 
-            this.secondary.Image = global::Necronight.Properties.Resources.Secondary;
-            this.secondary.Location = new System.Drawing.Point(62, 123);
-            this.secondary.Name = "secondary";
-            this.secondary.Size = new System.Drawing.Size(70, 71);
-            this.secondary.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.secondary.TabIndex = 3;
-            this.secondary.TabStop = false;
-            // 
-            // primary
-            // 
-            this.primary.Image = global::Necronight.Properties.Resources.Primary;
-            this.primary.Location = new System.Drawing.Point(52, 28);
-            this.primary.Name = "primary";
-            this.primary.Size = new System.Drawing.Size(90, 89);
-            this.primary.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.primary.TabIndex = 2;
-            this.primary.TabStop = false;
+            this.Weapon.Image = global::Necronight.Properties.Resources.Primary;
+            this.Weapon.Location = new System.Drawing.Point(54, 42);
+            this.Weapon.Name = "Weapon";
+            this.Weapon.Size = new System.Drawing.Size(90, 89);
+            this.Weapon.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.Weapon.TabIndex = 2;
+            this.Weapon.TabStop = false;
             // 
             // pictureBox1
             // 
             this.pictureBox1.BackgroundImage = global::Necronight.Properties.Resources.background;
-            this.pictureBox1.Location = new System.Drawing.Point(202, 28);
+            this.pictureBox1.Location = new System.Drawing.Point(216, 42);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(810, 582);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             this.pictureBox1.Paint += new System.Windows.Forms.PaintEventHandler(this.pictureBox1_Paint);
             // 
             // openspot1
             // 
-            this.openspot1.Location = new System.Drawing.Point(188, 14);
+            this.openspot1.Location = new System.Drawing.Point(202, 28);
             this.openspot1.Name = "openspot1";
             this.openspot1.Size = new System.Drawing.Size(838, 608);
             this.openspot1.TabIndex = 6;
             this.openspot1.TabStop = false;
+            // 
+            // heart2
+            // 
+            this.heart2.BackColor = System.Drawing.Color.Transparent;
+            this.heart2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.heart2.Image = global::Necronight.Properties.Resources.Heart_Full;
+            this.heart2.Location = new System.Drawing.Point(110, 253);
+            this.heart2.Name = "heart2";
+            this.heart2.Size = new System.Drawing.Size(60, 60);
+            this.heart2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.heart2.TabIndex = 7;
+            this.heart2.TabStop = false;
             // 
             // Form1
             // 
@@ -113,25 +112,25 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonShadow;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.ClientSize = new System.Drawing.Size(1046, 635);
-            this.Controls.Add(this.armour);
-            this.Controls.Add(this.heart);
-            this.Controls.Add(this.secondary);
-            this.Controls.Add(this.primary);
+            this.ClientSize = new System.Drawing.Size(1082, 665);
+            this.Controls.Add(this.heart2);
+            this.Controls.Add(this.heart1);
+            this.Controls.Add(this.Healables);
+            this.Controls.Add(this.Weapon);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.openspot1);
-            this.Cursor = System.Windows.Forms.Cursors.No;
+            this.Cursor = System.Windows.Forms.Cursors.PanNW;
             this.DoubleBuffered = true;
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Necronight";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Form1_KeyDown);
-            ((System.ComponentModel.ISupportInitialize)(this.armour)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.heart)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.secondary)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.primary)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.heart1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Healables)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Weapon)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.openspot1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.heart2)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -139,12 +138,11 @@
         #endregion
 
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.PictureBox primary;
-        private System.Windows.Forms.PictureBox secondary;
-        private System.Windows.Forms.PictureBox heart;
-        private System.Windows.Forms.PictureBox armour;
-        private System.Drawing.Printing.PrintDocument printDocument1;
+        private System.Windows.Forms.PictureBox Weapon;
+        private System.Windows.Forms.PictureBox Healables;
+        private System.Windows.Forms.PictureBox heart1;
         private System.Windows.Forms.PictureBox openspot1;
+        private System.Windows.Forms.PictureBox heart2;
     }
 }
 
