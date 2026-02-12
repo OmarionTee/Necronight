@@ -53,7 +53,7 @@ namespace Necronight
                     bullet.Left += speed; // Moves the bullet right by increasing its x-coordinate
                     break;
             }
-            if (bullet.Left < 0 || bullet.Left > 800 || bullet.Top < 10|| bullet.Top > 600) // Checks if the bullet has moved outside the bounds of the form (assuming a form size of 800x600)
+            if (bullet.Left < 0 || bullet.Left > 1500 || bullet.Top < 0 || bullet.Top > 800) // Checks if the bullet has moved outside the bounds of the game area (assuming a game area of 1500x800 pixels)
             {
                 bulletTimer.Stop(); // Stops the timer to prevent further movement of the bullet
                 bulletTimer.Dispose(); // Disposes of the timer to free up resources
