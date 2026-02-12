@@ -46,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Bullet.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -245,9 +246,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\R5survivor_rifle.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\background.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\background.jpg" />

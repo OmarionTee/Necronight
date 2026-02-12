@@ -43,10 +43,16 @@ namespace Necronight
 
 
         private Heart playerHealth; // Declares a private variable "playerHealth" of type "Heart", which will be used to manage the player's health in the game
+        int ammo = 0; // Initializes the variable "ammo" with the value 0, which represents the initial amount of ammunition the player has
+        int zombieSpeed = 3; // Initializes the variable "zombieSpeed" with the value 5, which represents the speed at which zombies will move in the game 
+        int score = 0; // Initializes the variable "score" with the value 0, which represents the player's initial score in the game
+        Random random = new Random(); // Creates a new instance of the Random class, which will be used to generate random numbers for various game mechanics such as zombie spawning and item drops
+        string facing = "F"; // Initializes the variable "facing" with the value "F", which represents the initial direction the player is facing (forward) 
 
+        List<PictureBox> zombies = new List<PictureBox>(); // Initializes a list of PictureBox objects called "zombies", which will be used to store and manage the zombie characters in the game
 
         Image bob = F1; // Initializes the variable "bob" with the forward-facing image (F1) as the default image to be displayed
-        static int y = 20; // Initializes the variable "y" with the value 20, which represents the initial y coordinate of the image
+        static int y = 100; // Initializes the variable "y" with the value 100, which represents the initial y coordinate of the image
         static int x = 20; // Initializes the variable "x" with the value 20, which represents the initial x coordinate of the image
 
         public Form1()
@@ -105,6 +111,23 @@ namespace Necronight
         }
 
 
+        private void Shoot(string direction)
+        {
+            Bullet shootBullet = new Bullet(); // Creates a new instance of the Bullet class called "shootBullet", which will be used to manage the bullet that is fired when the player shoots
+            shootBullet.direction = direction; // Sets the direction property of the shootBullet object to the value of the "direction" parameter passed to the Shoot method, which determines the direction in which the bullet will be fired 
+            shootBullet.bulletLeft = x + 15; // Sets the bulletLeft property of the shootBullet object to the current x coordinate of the player plus 15, which determines the initial horizontal position of the bullet when it is fired
+            shootBullet.bulletTop = y + 20; // Sets the bulletTop property of the shootBullet object to the current y coordinate of the player plus 20, which determines the initial vertical position of the bullet when it is fired
+            shootBullet.drawBullet(this); // Calls the drawBullet method of the shootBullet object, passing the current form (this) as a parameter, which will handle the drawing of the bullet on the screen
+
+        }
+
+        private void ZombieSpawn()
+        {
+
+        }
+
+
+
         private void Form1_KeyDown(object sender, KeyEventArgs e)
         {
             if (e.KeyCode == Keys.A || e.KeyCode == Keys.Left)
@@ -113,8 +136,8 @@ namespace Necronight
                 x = x - 10; // Updates the x coordinate of the image by subtracting 10, which moves it to the left
             } // left
 
-            pictureBox1.Refresh();
-            pictureBox1.Update();
+            this.Refresh();
+            this.Update();
 
             if (e.KeyCode == Keys.D || e.KeyCode == Keys.Right)
             {
@@ -122,8 +145,8 @@ namespace Necronight
                 x = x + 10; // Updates the x coordinate of the image by adding 10, which moves it to the right
             } // right
 
-            pictureBox1.Refresh();
-            pictureBox1.Update();
+            this.Refresh();
+            this.Update();
 
             if (e.KeyCode == Keys.W || e.KeyCode == Keys.Up)
             {
@@ -131,8 +154,8 @@ namespace Necronight
                 y = y - 10; // Updates the y coordinate of the image by subtracting 10, which moves it up
             } // up
 
-            pictureBox1.Refresh();
-            pictureBox1.Update();
+            this.Refresh();
+            this.Update();
 
             if (e.KeyCode == Keys.S || e.KeyCode == Keys.Down)
             {
@@ -140,6 +163,13 @@ namespace Necronight
                 y = y + 10; //  Updates the y coordinate of the image by adding 10, which moves it down
             } // down
 
+            this.Refresh();
+            this.Update();
+
+            if (e.KeyCode == Keys.Space)
+            {
+                Shoot(facing); 
+            }
 
             if (e.KeyCode == Keys.T) // Press T to test damage
             {
@@ -153,11 +183,18 @@ namespace Necronight
                 UpdateHearts();
             }
 
+
         }
 
-        private void pictureBox1_Paint(object sender, PaintEventArgs e)
+        private void GameTimer_Tick(object sender, EventArgs e)
         {
-            e.Graphics.DrawImage(bob, x, y, 30, 40); // Draws the current image (bob) at the specified coordinates (x, y) with a width of 30 and a height of 40
+            Ammo.Text = "Ammo: " + ammo; // Updates the text of the txtAmmo label to display the current amount of ammunition the player has, prefixed with "Ammo: "
+            Score.Text = "Score: " + score; // Updates the text of the txtScore label to display the current score, which is determined by the number of zombies in the game (zombies.Count)
+        }
+
+        private void Form1_Paint(object sender, PaintEventArgs e)
+        {
+            e.Graphics.DrawImage(bob, x, y, 30, 40 ); // Draws the image (bob) at the current x and y coordinates with a width of 30 and a height of 40 pixels on the form
 
         }
     }
