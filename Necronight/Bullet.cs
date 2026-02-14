@@ -13,9 +13,6 @@ namespace Necronight
         public string direction; // The direction the bullet is moving (e.g., "F", "B", "L", "R")
         public int bulletLeft; // The x-coordinate of the bullet's position
         public int bulletTop; // The y-coordinate of the bullet's position
-
-
-
         private int speed = 10; // The speed at which the bullet moves
         private PictureBox bullet = new PictureBox(); // The PictureBox object representing the bullet in the game
         private Timer bulletTimer = new Timer(); // A Timer object to control the movement of the bullet
@@ -40,19 +37,23 @@ namespace Necronight
         {
             switch (direction) // Checks the direction of the bullet and updates its position accordingly
             {
-                case "F":
+                case "Front":
                     bullet.Top -= speed; // Moves the bullet upwards by decreasing its y-coordinate
                     break;
-                case "B":
+
+                case "Back":
                     bullet.Top += speed; // Moves the bullet downwards by increasing its y-coordinate
                     break;
-                case "L":
+
+                case "Left":
                     bullet.Left -= speed; // Moves the bullet left by decreasing its x-coordinate
                     break;
-                case "R":
+
+                case "Right":
                     bullet.Left += speed; // Moves the bullet right by increasing its x-coordinate
                     break;
             }
+
             if (bullet.Left < 0 || bullet.Left > 1500 || bullet.Top < 0 || bullet.Top > 800) // Checks if the bullet has moved outside the bounds of the game area (assuming a game area of 1500x800 pixels)
             {
                 bulletTimer.Stop(); // Stops the timer to prevent further movement of the bullet

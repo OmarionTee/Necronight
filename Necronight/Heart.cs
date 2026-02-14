@@ -32,11 +32,5 @@ namespace Necronight
             if (CurrentHealth > MaxHealth)
                 CurrentHealth = MaxHealth;
         }
-
-        public bool IsDead()
-        {
-            return CurrentHealth <= 0; // Returns true if the Current health is less than or equal to 0, indicating that the player is dead
-        }
-
     }
 }
