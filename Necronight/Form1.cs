@@ -173,7 +173,7 @@ namespace Necronight
                 if (ammo < 1) dropAmmo(); // Drop more ammo if player runs out
             }
 
-            if (e.KeyCode == Keys.H) // Heal player if they have a medkit
+            if (e.KeyCode == Keys.H && hasMedkit) // Heal player if they have a medkit
             { 
                 playerHealth.Heal(50);
                 UpdateHearts(); 
