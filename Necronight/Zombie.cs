@@ -88,7 +88,7 @@ namespace Necronight
 
         }
 
-        public bool TryAttack(Rectangle playerBounds) // Method to attempt an attack on the player if the zombie is close
+        public bool Attack(Rectangle playerBounds) // Method to attempt an attack on the player if the zombie is close
         {
             if (ZombieSprite.Bounds.IntersectsWith(playerBounds))
             {

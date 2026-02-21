@@ -33,6 +33,7 @@ namespace Necronight
         bool hasMedkit = false; // track if player is carrying a medkit
 
         List<Zombie> zombies = new List<Zombie>(); // List of zombies
+        WaveSystem waveSystem = new WaveSystem();
 
         Image bob = F3; // Player image
         static int x = 450; // Player X cords
@@ -181,14 +182,42 @@ namespace Necronight
                 hasMedkit = false; // Player has used the medkit, so set to false
                 Healables.Image = Properties.Resources.Secondary; // Clear medkit from secondary slot
             }
-            if (e.KeyCode == Keys.M) dropMedkit();
+
+
+            // Buy ammo (Cost: 15 score)
+            if (e.KeyCode == Keys.B && score >= 15)
+            {
+                score -= 15;
+                ammo += 10;
+            }
+
+            // Buy medkit (Cost: 20 score)
+            if (e.KeyCode == Keys.M && score >= 20 && !hasMedkit)
+            {
+                score -= 20;
+                hasMedkit = true;
+                Healables.Image = Properties.Resources.Secondary_Medkit;
+            }
+
+
         }
 
         // Main game loop
         private void GameTimer_Tick(object sender, EventArgs e)
         {
+            waveSystem.Update();
             Ammo.Text = "Ammo: " + ammo;
             Score.Text = "Score: " + score;
+
+            if (waveSystem.WaveCooldown)
+            {
+                Wave.Text = "Wave Complete! Next wave in 15s...";
+            }
+            else
+            {
+                Wave.Text = "Wave: " + waveSystem.WaveNumber;
+            }
+
 
             // Pick up ammo
             foreach (Control ammoPick in this.Controls)
@@ -261,7 +290,7 @@ namespace Necronight
                 }
 
                 // Zombie attacks player
-                if (zombie.TryAttack(playerBounds))
+                if (zombie.Attack(playerBounds))
                 {
                     playerHealth.TakeDamage(25);
                     UpdateHearts();
@@ -272,21 +301,24 @@ namespace Necronight
                 {
                     zombies.Remove(zombie);
                     score++;
-                    ZombieSpawn();
-                    
-                    if(random.Next(0, 100) < 20) // 20% chance to drop ammo
+
+                    waveSystem.KillCounter();
+
+                    if (random.Next(0, 100) < 20) // 20% chance to drop ammo
                     {
-                        dropMedkit();
+                        dropAmmo();
                     }
                 }
             }
 
             // Spawn more zombies if less than 3
-            if (zombies.Count < 3)
+            int maxZombies = 3 + waveSystem.WaveNumber;
+
+            if (!waveSystem.WaveCooldown && zombies.Count < maxZombies)
             {
                 ZombieSpawn();
             }
-                
+
             this.Invalidate(); // Redraw screen
         }
 
