@@ -69,21 +69,26 @@ namespace Necronight
             if (ZombieSprite.Left > playerX)
             { 
                 ZombieSprite.Left -= speed;
+                ZombieSprite.Image = Properties.Resources.L2zombie; // Face left
             }
 
             if (ZombieSprite.Left < playerX)
             {
                 ZombieSprite.Left += speed;
+                ZombieSprite.Image = Properties.Resources.R2zombie; // Face right
             }
 
             if (ZombieSprite.Top > playerY)
             {
                 ZombieSprite.Top -= speed;
+                ZombieSprite.Image = Properties.Resources.F2zombie; // Face up
+
             }
 
             if (ZombieSprite.Top < playerY)
             {
                 ZombieSprite.Top += speed;
+                ZombieSprite.Image = Properties.Resources.B2zombie; // Face down/back
             }
 
         }

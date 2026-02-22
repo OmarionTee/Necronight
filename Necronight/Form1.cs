@@ -29,7 +29,8 @@ namespace Necronight
         int ammo = 10; // Player ammo
         int score = 0; // Player score
         string facing = "Front"; // Direction player is facing
-        Random random = new Random(); // Random generator for zombie spawning and ammo drops
+        Random random = new Random(); // Random generator for zombie spawning and ammo drops and medkit drops.
+
         bool hasMedkit = false; // track if player is carrying a medkit
 
         List<Zombie> zombies = new List<Zombie>(); // List of zombies
@@ -149,22 +150,30 @@ namespace Necronight
         {
             if (e.KeyCode == Keys.A || e.KeyCode == Keys.Left) // Move left 
             { 
-                bob = L3; x -= 10; facing = "Left"; 
+                bob = L3; 
+                x -= 10; 
+                facing = "Left"; 
             }
 
             if (e.KeyCode == Keys.D || e.KeyCode == Keys.Right) // Move right
             { 
-                bob = R3; x += 10; facing = "Right";
+                bob = R3; 
+                x += 10; 
+                facing = "Right";
             }
 
             if (e.KeyCode == Keys.W || e.KeyCode == Keys.Up) // Move up
             { 
-                bob = F3; y -= 10; facing = "Front"; 
+                bob = F3;
+                y -= 10;
+                facing = "Front"; 
             }
 
             if (e.KeyCode == Keys.S || e.KeyCode == Keys.Down) // Move down
             {
-                bob = B3; y += 10; facing = "Back";
+                bob = B3;
+                y += 10; 
+                facing = "Back";
             }
 
             if (e.KeyCode == Keys.Space && ammo > 0) // Shoot bullet and check if player has ammo
@@ -304,9 +313,9 @@ namespace Necronight
 
                     waveSystem.KillCounter();
 
-                    if (random.Next(0, 100) < 20) // 20% chance to drop ammo
+                    if (random.Next(0, 100) < 20) // 20% chance to drop a medkit
                     {
-                        dropAmmo();
+                        dropMedkit();
                     }
                 }
             }
