@@ -64,7 +64,10 @@ namespace Necronight
 
         public void MoveTowards(int playerX, int playerY) // Method to move the zombie towards the player
         {
-            if (IsDead) return;
+            if (IsDead)
+            {
+                return;
+            }
 
             if (ZombieSprite.Left > playerX)
             { 
@@ -112,7 +115,9 @@ namespace Necronight
             health -= damage;
 
             if (health <= 0)
+            {
                 Die();
+            }
         }
 
         private void Die() // Method to handle the zombie's death by removing its sprite from the form

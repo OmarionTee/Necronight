@@ -23,14 +23,18 @@ namespace Necronight
         {
             CurrentHealth -= amount; // Subtracts the amount of damage from the Current health
             if (CurrentHealth < 0)
+            {
                 CurrentHealth = 0;
+            }
         }
 
         public void Heal(int amount) // Method that increases the Current health by the specified amount of healing
         {
             CurrentHealth += amount; // Adds the amount of healing to the Current health
             if (CurrentHealth > MaxHealth)
+            {
                 CurrentHealth = MaxHealth;
+            }
         }
     }
 }

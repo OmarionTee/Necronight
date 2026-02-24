@@ -18,8 +18,11 @@ namespace Necronight
 
         public void KillCounter() // Method to be called whenever a zombie is killed to increment the kill count and check if the wave should end
         {
-            if (WaveCooldown) return;
-
+            if (WaveCooldown)
+            {
+                return;
+            }
+                
             Kills++;
 
             if (Kills >= KillsToEnd)

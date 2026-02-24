@@ -284,16 +284,16 @@ namespace Necronight
             {
                 zombie.MoveTowards(x, y);
 
-                // Prevent zombies overlapping
+                // Prevent zombies overlapping and causes them to bump away from each other if they collide
                 foreach (Zombie other in zombies)
                 {
                     if (other != zombie)
                     {
-                        Rectangle overlap = Rectangle.Intersect(zombie.ZombieSprite.Bounds, other.ZombieSprite.Bounds);
-                        if (!overlap.IsEmpty)
+                        Rectangle bumping = Rectangle.Intersect(zombie.ZombieSprite.Bounds, other.ZombieSprite.Bounds);
+                        if (!bumping.IsEmpty)
                         {
-                            if (overlap.Width > 0) zombie.ZombieSprite.Left -= overlap.Width / 2;
-                            if (overlap.Height > 0) zombie.ZombieSprite.Top -= overlap.Height / 2;
+                            if (bumping.Width > 0) zombie.ZombieSprite.Left -= bumping.Width / 2;
+                            if (bumping.Height > 0) zombie.ZombieSprite.Top -= bumping.Height / 2;
                         }
                     }
                 }
@@ -313,7 +313,7 @@ namespace Necronight
 
                     waveSystem.KillCounter();
 
-                    if (random.Next(0, 100) < 20) // 20% chance to drop a medkit
+                    if (random.Next(0, 100) < 10) // 10% chance to drop a medkit
                     {
                         dropMedkit();
                     }
