@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Drawing;
+using System.Drawing.Drawing2D;
 using System.Linq;
 using System.Windows.Forms;
 
@@ -152,28 +153,28 @@ namespace Necronight
             { 
                 bob = L3; 
                 x -= 10; 
-                facing = "Left"; 
+                facing = "Left"; // Updates the facing variable to "Left" when the player moves left to make sure bullets shoot in the correct direction.
             }
 
             if (e.KeyCode == Keys.D || e.KeyCode == Keys.Right) // Move right
             { 
                 bob = R3; 
                 x += 10; 
-                facing = "Right";
+                facing = "Right"; // Updates the facing variable to "Right" when the player moves right to make sure bullets shoot in the correct direction.
             }
 
             if (e.KeyCode == Keys.W || e.KeyCode == Keys.Up) // Move up
             { 
                 bob = F3;
                 y -= 10;
-                facing = "Front"; 
+                facing = "Front"; // Updates the facing variable to "Front" when the player moves up to make sure bullets shoot in the correct direction.
             }
 
             if (e.KeyCode == Keys.S || e.KeyCode == Keys.Down) // Move down
             {
                 bob = B3;
                 y += 10; 
-                facing = "Back";
+                facing = "Back"; // Updates the facing variable to "Back" when the player moves down to make sure bullets shoot in the correct direction.
             }
 
             if (e.KeyCode == Keys.Space && ammo > 0) // Shoot bullet and check if player has ammo
