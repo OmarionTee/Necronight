@@ -10,21 +10,21 @@ namespace Necronight
     public partial class Form1 : Form
     {
         // Player and zombie images
-        static Image F1 = global::Necronight.Properties.Resources.F1survivor_unarmed;
-        static Image B1 = global::Necronight.Properties.Resources.B1survivor_unarmed;
-        static Image L1 = global::Necronight.Properties.Resources.L1survivor_unarmed;
-        static Image R1 = global::Necronight.Properties.Resources.R1survivor_unarmed;
-        static Image F2 = global::Necronight.Properties.Resources.F2zombie;
-        static Image B2 = global::Necronight.Properties.Resources.B2zombie;
-        static Image L2 = global::Necronight.Properties.Resources.L2zombie;
-        static Image R2 = global::Necronight.Properties.Resources.R2zombie;
-        static Image F3 = global::Necronight.Properties.Resources.F3survivor_pistol;
-        static Image B3 = global::Necronight.Properties.Resources.B3survivor_pistol;
-        static Image L3 = global::Necronight.Properties.Resources.L3survivor_pistol;
-        static Image R3 = global::Necronight.Properties.Resources.R3survivor_pistol;
-        static Image Heart_Full = global::Necronight.Properties.Resources.Heart_Full;
-        static Image Heart_Empty = global::Necronight.Properties.Resources.Heart_Empty;
-        static Image Heart_Half = global::Necronight.Properties.Resources.Heart_Half;
+        static Image F1 = Properties.Resources.F1survivor_unarmed;
+        static Image B1 = Properties.Resources.B1survivor_unarmed;
+        static Image L1 = Properties.Resources.L1survivor_unarmed;
+        static Image R1 = Properties.Resources.R1survivor_unarmed;
+        static Image F2 = Properties.Resources.F2zombie;
+        static Image B2 = Properties.Resources.B2zombie;
+        static Image L2 = Properties.Resources.L2zombie;
+        static Image R2 = Properties.Resources.R2zombie;
+        static Image F3 = Properties.Resources.F3survivor_pistol;
+        static Image B3 = Properties.Resources.B3survivor_pistol;
+        static Image L3 = Properties.Resources.L3survivor_pistol;
+        static Image R3 = Properties.Resources.R3survivor_pistol;
+        static Image Heart_Full = Properties.Resources.Heart_Full;
+        static Image Heart_Empty = Properties.Resources.Heart_Empty;
+        static Image Heart_Half = Properties.Resources.Heart_Half;
 
         private Heart playerHealth; // Player health manager
         int ammo = 10; // Player ammo

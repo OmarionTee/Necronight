@@ -10,18 +10,18 @@ namespace Necronight
 {
     internal class Bullet
     {
-        public string direction; // The direction the bullet is moving (e.g., "F", "B", "L", "R")
+        public string direction; // The direction the bullet is moving (e.g., "Front", "Back", "Left", "Right")
         public int bulletLeft; // The x-coordinate of the bullet's position
         public int bulletTop; // The y-coordinate of the bullet's position
         private int speed = 10; // The speed at which the bullet moves
-        private PictureBox bullet = new PictureBox(); // The PictureBox object representing the bullet in the game
-        private Timer bulletTimer = new Timer(); // A Timer object to control the movement of the bullet
+        private PictureBox bullet = new PictureBox(); 
+        private Timer bulletTimer = new Timer(); // A timer to control the bullet's movement
 
-        public void drawBullet(Form form) // Method to initialize and display the bullet on the form
+        public void drawBullet(Form form)
         {
-            bullet.BackColor = Color.Yellow; // Sets the background color of the bullet to yellow
-            bullet.Size = new Size(3, 3); // Sets the size of the bullet to 3x3 pixels
-            bullet.Tag = "bullet"; // Assigns a tag to the bullet for identification purposes
+            bullet.BackColor = Color.Yellow;
+            bullet.Size = new Size(3, 3);
+            bullet.Tag = "bullet"; 
             bullet.Left = bulletLeft; // Sets the initial x-coordinate of the bullet
             bullet.Top = bulletTop; // Sets the initial y-coordinate of the bullet
 
@@ -54,7 +54,7 @@ namespace Necronight
                     break;
             }
 
-            if (bullet.Left < 0 || bullet.Left > 1500 || bullet.Top < 0 || bullet.Top > 800) // Checks if the bullet has moved outside the bounds of the game area (assuming a game area of 1500x800 pixels)
+            if (bullet.Left < 0 || bullet.Left > 1500 || bullet.Top < 0 || bullet.Top > 800) // Checks if the bullet has moved outside the bounds of the game area, and then removes it.
             {
                 bulletTimer.Stop(); // Stops the timer to prevent further movement of the bullet
                 bulletTimer.Dispose(); // Disposes of the timer to free up resources

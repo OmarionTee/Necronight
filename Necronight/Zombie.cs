@@ -12,8 +12,8 @@ namespace Necronight
     {
         public PictureBox ZombieSprite;
 
-        private int speed = 1; // speed at which the zombie moves
-        private int health = 50; // health for the zombie
+        private int speed = 1; // Speed at which the zombie moves
+        private int health = 50; // Health for the zombie
 
         private int attackCooldown = 0; // Timer to track when the zombie can attack again
         private int attackDelay = 20; // Hw long the zombie must wait between attacks
