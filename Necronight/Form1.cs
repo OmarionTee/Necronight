@@ -314,14 +314,14 @@ namespace Necronight
 
                     waveSystem.KillCounter();
 
-                    if (random.Next(0, 100) < 10) // 10% chance to drop a medkit
+                    if (random.Next(0, 100) < 20) // 20% chance to drop a medkit
                     {
                         dropMedkit();
                     }
                 }
             }
 
-            // Spawn more zombies if less than 3
+            // Spawn more zombies if less than 3 and increase it every wave.
             int maxZombies = 3 + waveSystem.WaveNumber;
 
             if (!waveSystem.WaveCooldown && zombies.Count < maxZombies)
